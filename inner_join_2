@@ -1,0 +1,1 @@
+SELECT * FROM `degrees` INNER JOIN departments ON degrees.department_id = departments.id WHERE degrees.department_id = 7;
