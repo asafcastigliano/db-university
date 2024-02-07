@@ -1,0 +1,1 @@
+SELECT exam_id, ROUND(SUM(vote) / COUNT(vote), 2) AS average_score FROM `exam_student` GROUP BY exam_id;
